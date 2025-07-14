@@ -244,10 +244,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**⭐ If you like this project, please give it a star on GitHub! ⭐**
-
-*Made with ❤️ and ✨ magic for the IIT Gandhinagar community*
-
 **🪄 "The beautiful thing about learning is that no one can take it away from you." - B.B. King**
 
 </div>
