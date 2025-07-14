@@ -233,21 +233,6 @@ Edit `src/data/questions.js` and follow the existing format:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
-
-- **IIT Gandhinagar Quizzing Society** for inspiration and support
-- **Harry Potter Universe** by J.K. Rowling for magical theming
-- **Marvel Cinematic Universe** for superhero quiz content
-- **Open Source Community** for amazing tools and libraries
-- **Supabase** for providing excellent backend services
-- **Vercel** for seamless deployment platform
-
-## 📞 Support
-
-- 📧 **Email:** [your-email@iitgn.ac.in]
-- 🐛 **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/quizzcasso/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/YOUR_USERNAME/quizzcasso/discussions)
-
 ## 📊 Stats
 
 ![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/quizzcasso?style=social)
