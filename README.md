@@ -4,50 +4,16 @@
 
 A beautiful, interactive quiz platform built for the **IIT Gandhinagar Quizzing Society** with Harry Potter-themed magical design and comprehensive learning features.
 
-## ✨ Features
 
-- 🏠 **House-themed Interface**: Dark purple/navy backgrounds with magical shimmer effects
-- 📚 **Multiple Quiz Categories**: Test Your Knowledge, Fun Quizzes, Facts & Knowledge
-- 🏆 **Leaderboard System**: Track top performers across all quizzes
-- 👥 **Team Pages**: About Us and Meet the Team sections
-- ✨ **Magical Animations**: Subtle background animations for immersive experience
-- 📱 **Responsive Design**: Optimized for all devices and screen sizes
-- 🎨 **Dark Theme**: Easy on the eyes with silver/golden/light blue accents
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18 with Vite
-- **Routing**: React Router DOM v6
+- **Frontend**: React with Vite
 - **Styling**: Custom CSS with magical themes
-- **Icons**: Lucide React
-- **Authentication**: Supabase integration
-- **Deployment**: Vercel & Netlify ready
+- **Deployment**: Github pages
 
-## 📁 Project Structure
 
-```
-src/
-├── components/          # React components
-│   ├── HomePage.jsx     # Landing page with magical intro
-│   ├── Navigation.jsx   # Navigation bar component
-│   ├── AboutUs.jsx      # About the Quizzing Society
-│   ├── MeetTheTeam.jsx  # Team member profiles
-│   ├── Quiz.jsx         # Main quiz functionality
-│   ├── TestYourKnowledge.jsx  # Academic quizzes
-│   ├── FunQuiz.jsx      # Entertainment quizzes
-│   ├── FactsAndKnowledge.jsx  # Educational content
-│   └── Leaderboard.jsx  # Score tracking system
-├── contexts/            # React contexts
-│   └── AuthContext.jsx  # Authentication management
-├── data/               # Static data
-│   └── questions.js    # Quiz questions database
-├── App.jsx             # Main application component
-├── App.css             # Global application styles
-├── index.css           # Base CSS styles
-└── main.jsx            # Application entry point
-```
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -88,16 +54,7 @@ npm run preview
 | `npm run dev` | Start development server with hot reload |
 | `npm run build` | Build optimized production bundle |
 | `npm run preview` | Preview production build locally |
-| `npm run lint` | Run ESLint for code quality checks |
 
-## 🌐 Deployment
-
-The project is pre-configured for deployment on:
-
-- **Vercel**: Uses `vercel.json` configuration
-- **Netlify**: Uses `netlify.toml` configuration
-
-Simply connect your GitHub repository to either platform for automatic deployments.
 
 ## 🎯 Usage
 
@@ -122,12 +79,6 @@ For contributions:
 **Srushti Dandekar**  
 *Club Secretary, Quizzing Society*  
 *IIT Gandhinagar, BTech'23 Civil Engineering*
-
-## 📄 License
-
-This project is created for educational purposes by the IIT Gandhinagar Quizzing Society.
-
----
 
 *"It is our choices, Harry, that show what we truly are, far more than our abilities."* - Albus Dumbledore
 
