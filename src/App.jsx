@@ -20,9 +20,11 @@ function AppContent() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        minHeight: '100vh'
+        minHeight: '100vh',
+        backgroundColor: '#1a1a2e',
+        color: 'white'
       }}>
-        <div className="loading-spinner" style={{ width: '50px', height: '50px' }}></div>
+        <div>Loading...</div>
       </div>
     )
   }
