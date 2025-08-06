@@ -10,7 +10,7 @@ export default function AboutUs() {
         <h1 className="section-title">About Quizzcasso</h1>
         
         <div className="magical-card">
-          <div style={{ fontStyle: 'italic', fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--deep-blue)' }}>
+          <div style={{ fontStyle: 'italic', fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--light-blue)' }}>
             <p style={{ marginBottom: '2rem' }}>
               <em>Welcome to Quizzcasso, where the enchanting world of knowledge meets the magical realm of learning. 
               Born from the passionate minds of the Quizzing Society at IIT Gandhinagar, this platform represents 
