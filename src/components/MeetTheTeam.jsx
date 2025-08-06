@@ -5,64 +5,98 @@ export default function MeetTheTeam() {
   const teamMembers = [
     {
       id: 1,
-      name: "Hermione Granger",
+      name: "Srushti Dandekar",
       role: "Club Secretary",
-      realName: "Srushti Dandekar",
+      // realName: "Srushti Dandekar",
       description: "The brilliant mind behind Quizzcasso, leading the Quizzing Society with passion and dedication.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=300&fit=crop&crop=face",
+      image: "src/photos/Quizzing Members 25-26/Secretary/Srushti_BTech_23_CE.jpg",
       department: "Civil Engineering",
       year: "BTech'23"
     },
     {
       id: 2,
-      name: "Harry Potter",
-      role: "Quiz Master",
+      name: "Ayush Tanwar",
+      role: "Research and Question Bank Coordinator",
       realName: "Team Member 1",
       description: "Specializes in creating challenging questions and maintaining the magical quiz experience.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
-      department: "Computer Science",
-      year: "BTech'24"
+      image: "src/photos/Quizzing Members 25-26/Research and Question Bank Coordinator/AyushTanwar_Btech_23_CE.jpg",
+      department: "Civil Engineering",
+      year: "BTech'23"
     },
     {
       id: 3,
-      name: "Ron Weasley",
-      role: "Technical Coordinator",
+      name: "Pradeep Dudi",
+      role: "Events and Management Coordinator",
       realName: "Team Member 2",
       description: "Ensures smooth technical operations and manages the platform's magical functionality.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      image: "src/photos/Quizzing Members 25-26/Events and Management Coordinator/Pradeep_dudi_EE.jpg",
       department: "Electrical Engineering",
-      year: "BTech'24"
+      year: "BTech'23"
     },
     {
       id: 4,
-      name: "Luna Lovegood",
-      role: "Content Creator",
+      name: "Sai Tejaswini Rathod",
+      role: "Outreach and Operations Coordinator",
       realName: "Team Member 3",
       description: "Crafts engaging content and ensures our facts and knowledge section stays magical.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
-      department: "Chemical Engineering",
-      year: "BTech'25"
+      image: "src/photos/Quizzing Members 25-26/Outreach and Operations Coordinator/SaiTejashwiniRathod_Btech_23_ME.jpg",
+      department: "Mechanical Engineering",
+      year: "BTech'23"
     },
     {
       id: 5,
-      name: "Neville Longbottom",
-      role: "Community Manager",
+      name: "Chandrabhan Patel",
+      role: "Web Master",
       realName: "Team Member 4",
       description: "Manages our growing community of quiz enthusiasts and organizes events.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
-      department: "Mechanical Engineering",
-      year: "BTech'25"
+      image: "src/photos/Quizzing Members 25-26/Webmaster/Chandrabhan_patel_CSE.png",
+      department: "Computer Science and Engineering",
+      year: "BTech'22"
     },
     {
       id: 6,
-      name: "Ginny Weasley",
-      role: "Design Coordinator",
+      name: "Isha Agrawal",
+      role: "Core Member",
       realName: "Team Member 5",
       description: "Brings the magical visual experience to life with creative design and user experience.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop&crop=face",
-      department: "Mathematics & Computing",
-      year: "BTech'26"
+      image: "src/photos/Quizzing Members 25-26/Core Members/Isha_Agrawal_23110139.jpg",
+      department: "Chemical Engineering",
+      year: "BTech'23"
+    },
+
+    {
+      id: 6,
+      name: "Veer Jain",
+      role: "Core Member",
+      realName: "Team Member 5",
+      description: "Brings the magical visual experience to life with creative design and user experience.",
+      image: "src/photos/Quizzing Members 25-26/Core Members/Veer_Jain.jpg",
+      department: "Chemical Engineering",
+      year: "BTech'23"
+    },
+
+    {
+      id: 6,
+      name: "Antriksh Dongre",
+      role: "Core Member",
+      realName: "Team Member 5",
+      description: "Brings the magical visual experience to life with creative design and user experience.",
+      image: "src/photos/Quizzing Members 25-26/Core Members/ANTRIX.jpg",
+      department: "Chemical Engineering",
+      year: "BTech'23"
+    },
+
+    {
+      id: 6,
+      name: "Ayush Umare",
+      role: "Core Member",
+      realName: "Team Member 5",
+      description: "Brings the magical visual experience to life with creative design and user experience.",
+      image: "src/photos/Quizzing Members 25-26/Core Members/umare.jpg",
+      department: "Electrical Engineering",
+      year: "BTech'23"
     }
+
   ]
 
   return (
@@ -88,7 +122,7 @@ export default function MeetTheTeam() {
                 className="member-photo"
               />
               <h3 className="member-name">{member.name}</h3>
-              <p className="member-role">{member.role}</p>
+              {/* <p className="member-role">{member.role}</p> */}
               
               <div style={{ 
                 background: 'rgba(212, 175, 55, 0.1)', 
@@ -103,7 +137,7 @@ export default function MeetTheTeam() {
                   color: 'var(--gold)',
                   marginBottom: '0.5rem'
                 }}>
-                  Real Identity: {member.realName}
+                  {member.role} 
                 </p>
                 <p style={{ fontSize: '0.9rem', color: 'var(--emerald)' }}>
                   {member.department} • {member.year}
@@ -115,7 +149,7 @@ export default function MeetTheTeam() {
 
         <div className="magical-card" style={{ marginTop: '4rem', textAlign: 'center' }}>
           <h2 className="subsection-title">Our Collective Magic</h2>
-          <p style={{ fontSize: '1.1rem', fontStyle: 'italic', lineHeight: '1.7', color: 'var(--deep-blue)' }}>
+          <p style={{ fontSize: '1.1rem', fontStyle: 'italic', lineHeight: '1.7', color: 'var(--white)' }}>
             <em>Together, we form the heart and soul of the Quizzing Society at IIT Gandhinagar. 
             Our diverse backgrounds in engineering and technology converge to create a platform 
             that celebrates knowledge, fosters learning, and brings the magic of quizzing to 
