@@ -9,7 +9,7 @@ export default function MeetTheTeam() {
       role: "Club Secretary",
       // realName: "Srushti Dandekar",
       description: "The brilliant mind behind Quizzcasso, leading the Quizzing Society with passion and dedication.",
-      image: "/photos/Quizzing Members 25-26/Secretary/Srushti_BTech_23_CE.jpg",
+      image: "./photos/Quizzing Members 25-26/Secretary/Srushti_BTech_23_CE.jpg",
       department: "Civil Engineering",
       year: "BTech'23"
     },
@@ -19,7 +19,7 @@ export default function MeetTheTeam() {
       role: "Research and Question Bank Coordinator",
       realName: "Team Member 1",
       description: "Specializes in creating challenging questions and maintaining the magical quiz experience.",
-      image: "/photos/Quizzing Members 25-26/Research and Question Bank Coordinator/AyushTanwar_Btech_23_CE.jpg",
+      image: "./photos/Quizzing Members 25-26/Research and Question Bank Coordinator/AyushTanwar_Btech_23_CE.jpg",
       department: "Civil Engineering",
       year: "BTech'23"
     },
@@ -29,7 +29,7 @@ export default function MeetTheTeam() {
       role: "Events and Management Coordinator",
       realName: "Team Member 2",
       description: "Ensures smooth technical operations and manages the platform's magical functionality.",
-      image: "/photos/Quizzing Members 25-26/Events and Management Coordinator/Pradeep_dudi_EE.jpg",
+      image: "./photos/Quizzing Members 25-26/Events and Management Coordinator/Pradeep_dudi_EE.jpg",
       department: "Electrical Engineering",
       year: "BTech'23"
     },
@@ -39,7 +39,7 @@ export default function MeetTheTeam() {
       role: "Outreach and Operations Coordinator",
       realName: "Team Member 3",
       description: "Crafts engaging content and ensures our facts and knowledge section stays magical.",
-      image: "/photos/Quizzing Members 25-26/Outreach and Operations Coordinator/SaiTejashwiniRathod_Btech_23_ME.jpg",
+      image: "./photos/Quizzing Members 25-26/Outreach and Operations Coordinator/SaiTejashwiniRathod_Btech_23_ME.jpg",
       department: "Mechanical Engineering",
       year: "BTech'23"
     },
@@ -49,7 +49,7 @@ export default function MeetTheTeam() {
       role: "Web Master",
       realName: "Team Member 4",
       description: "Manages our growing community of quiz enthusiasts and organizes events.",
-      image: "/photos/Quizzing Members 25-26/Webmaster/Chandrabhan_patel_CSE.png",
+      image: "./photos/Quizzing Members 25-26/Webmaster/Chandrabhan_patel_CSE.png",
       department: "Computer Science and Engineering",
       year: "BTech'22"
     },
@@ -59,7 +59,7 @@ export default function MeetTheTeam() {
       role: "Core Member",
       realName: "Team Member 5",
       description: "Brings the magical visual experience to life with creative design and user experience.",
-      image: "/photos/Quizzing Members 25-26/Core Members/Isha_Agrawal_23110139.jpg",
+      image: "./photos/Quizzing Members 25-26/Core Members/Isha_Agrawal_23110139.jpg",
       department: "Chemical Engineering",
       year: "BTech'23"
     },
@@ -70,7 +70,7 @@ export default function MeetTheTeam() {
       role: "Core Member",
       realName: "Team Member 5",
       description: "Brings the magical visual experience to life with creative design and user experience.",
-      image: "/photos/Quizzing Members 25-26/Core Members/Veer_Jain.jpg",
+      image: "./photos/Quizzing Members 25-26/Core Members/Veer_Jain.jpg",
       department: "Chemical Engineering",
       year: "BTech'23"
     },
@@ -81,7 +81,7 @@ export default function MeetTheTeam() {
       role: "Core Member",
       realName: "Team Member 5",
       description: "Brings the magical visual experience to life with creative design and user experience.",
-      image: "/photos/Quizzing Members 25-26/Core Members/ANTRIX.jpg",
+      image: "./photos/Quizzing Members 25-26/Core Members/ANTRIX.jpg",
       department: "Chemical Engineering",
       year: "BTech'23"
     },
@@ -92,7 +92,7 @@ export default function MeetTheTeam() {
       role: "Core Member",
       realName: "Team Member 5",
       description: "Brings the magical visual experience to life with creative design and user experience.",
-      image: "/photos/Quizzing Members 25-26/Core Members/umare.jpg",
+      image: "./photos/Quizzing Members 25-26/Core Members/umare.jpg",
       department: "Electrical Engineering",
       year: "BTech'23"
     }
